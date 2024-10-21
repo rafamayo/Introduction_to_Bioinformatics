@@ -35,7 +35,7 @@ ACACC
     
 2. **Ensembl Gene Retrieval:**
    - **Step 1:** Access the Ensembl website (http://www.ensembl.org).
-   - **Step 2:** Search for the BRCA1 gene using the search bar.
+   - **Step 2:** Search for the BRCA1 gene using the search bar. You can select the species, e.g. human
    - **Step 3:** Navigate to the gene's detailed page and explore the following sections:
      - **Gene Summary:** Basic information about the gene.
      - **Location:** Chromosomal location and genomic context.
@@ -43,6 +43,22 @@ ACACC
      - **Variants:** Known variants and their potential impacts.
    - **Step 4:** Retrieve and report the following information:
      - Gene location (chromosome number and base pair range).
-     - The number of transcripts and a brief description of their differences.
+     - The number of transcripts and biotypes.
      - Any notable variants and their associated phenotypes.
 
+3. **Discussion:**
+  - Reflect briefly on the experience of using these tools.
+  - Discuss any challenges faced and how they were overcome.
+  - Assess the importance of database searching and retrieval in bioinformatics.
+
+**Expected Outcomes:**
+
+- Students will be able to perform a BLAST search to find similar sequences and interpret the results.
+- Students will understand how to retrieve detailed gene information from the Ensembl database.
+- Students will become familiar with navigating biological databases and extracting relevant data.
+
+**Tools to Use:**
+
+- **NCBI BLAST:** For performing sequence similarity searches.
+- **Ensembl:** For retrieving gene annotations and detailed genetic information.
+- **Web Browsers:** To access the NCBI and Ensembl websites.
