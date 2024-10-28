@@ -59,7 +59,7 @@ Sequence alignment is a fundamental technique in bioinformatics used to identify
      - Identify conserved regions, variable regions, and any gaps.
 
 
-5. **Discussion:**
+3. **Discussion:**
   - Reflect briefly on the importance of sequence alignment in bioinformatics.
   - Interpretation of the biological significance of the alignment results.
   - Any challenges faced during the assignment and how they were overcome.
