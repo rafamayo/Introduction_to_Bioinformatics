@@ -15,7 +15,7 @@ Sequence alignment is a fundamental technique in bioinformatics used to identify
 **Tasks to Perform:**
 
 1. **Pairwise Sequence Alignment:**
-   - **Step 1:** Access the EMBOSS Needle tool (https://www.ebi.ac.uk/Tools/psa/emboss_needle/).
+   - **Step 1:** Access the EMBOSS Needle tool (https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/).
    - **Step 2:** Use the following two protein sequences for alignment:
      
      - Sequence 1: 
