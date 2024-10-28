@@ -38,7 +38,7 @@ Sequence alignment is a fundamental technique in bioinformatics used to identify
 
 2. **Multiple Sequence Alignment:**
 
-   - **Step 1:** Access the Clustal Omega tool (https://www.ebi.ac.uk/Tools/msa/clustalo/).
+   - **Step 1:** Access the Clustal Omega tool (https://www.ebi.ac.uk/jdispatcher/msa/clustalo/).
    - **Step 2:** Use the following three protein sequences for alignment:
      - Sequence 1: 
        ```
