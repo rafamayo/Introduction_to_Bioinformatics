@@ -33,3 +33,44 @@ Sequence alignment is a fundamental technique in bioinformatics used to identify
      - Alignment score
      - Percentage identity and similarity
      - Key regions of similarity and differences (highlight mismatches and gaps)
+
+
+   2. **Multiple Sequence Alignment:**
+   - **Step 1:** Access the Clustal Omega tool (https://www.ebi.ac.uk/Tools/msa/clustalo/).
+   - **Step 2:** Use the following three protein sequences for alignment:
+     - Sequence 1: 
+       ```
+       MKTLLILTFLCLLATHTDTSATYQTKDALAKDPRIAQDEYTGKFLYLALMGNEYMFKKSSKYGRAVLAKGLVEIVNLLKEKQNKPKSPLK
+       ```
+     - Sequence 2: 
+       ```
+       MTTLILTFLCLLATHTDTSATYQTKDAAAKDPRIAQDEYTGKFLYLALMGNAYMFKKSSKYGRAVLAKGLVEIVNLLEEKQNKPKSPL
+       ```
+     - Sequence 3: 
+       ```
+       MKTLILTFLCLLATHTDTSATYQTKDALAKDPRIAQDEYTGKFLYLALMGNEYMFQKSSKYGRAVLAKGLVEIVNLLEEKQNKPKSPLK
+       ```
+   - **Step 3:** Perform the alignment using default settings.
+   - **Step 4:** Report the following details:
+     - Alignment overview
+     - Percentage identity matrix
+     - Identify conserved regions, variable regions, and any gaps.
+
+
+3. **Discussion:**
+  - Reflect briefly on the importance of sequence alignment in bioinformatics.
+  - Interpretation of the biological significance of the alignment results.
+  - Any challenges faced during the assignment and how they were overcome.
+
+
+**Expected Outcomes:**
+
+- Students will be able to perform and interpret pairwise and multiple sequence alignments.
+- Students will understand the significance of alignment scores, percentage identity, and similarity.
+- Students will be able to identify conserved and variable regions in protein sequences, which are important for understanding functional and evolutionary relationships.
+
+**Tools to Use:**
+
+- **EMBOSS Needle:** For pairwise sequence alignment.
+- **Clustal Omega:** For multiple sequence alignment.
+- **Web Browsers:** To access the online tools.
