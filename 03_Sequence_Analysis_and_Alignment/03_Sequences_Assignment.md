@@ -1,36 +1,39 @@
 ## Week 3 Assignment: Sequence Analysis and Alignment
 
-### Sequence Alignment: Understanding Pairwise and Multiple Sequence Alignments
+### Sequence Alignment: Understanding Pairwise Sequence Alignment
 
 **Motivation:**
 
-Sequence alignment is a fundamental technique in bioinformatics used to identify regions of similarity that may indicate functional, structural, or evolutionary relationships between sequences. This assignment will provide hands-on experience with pairwise and multiple sequence alignments, using state-of-the-art tools. Mastering these techniques is crucial for interpreting genetic data and understanding biological functions and evolution.
+Sequence alignment is a fundamental technique in bioinformatics used to identify regions of similarity that may indicate functional, structural, or evolutionary relationships between sequences. This assignment will provide hands-on experience with pairwise sequence alignment, using state-of-the-art tools. Mastering these techniques is crucial for interpreting genetic data and understanding biological functions and evolution.
 
 **Goals:**
 
 1. Learn how to perform pairwise sequence alignment using the Needleman-Wunsch and Smith-Waterman algorithms.
-2. Understand the principles of multiple sequence alignment and apply them using Clustal Omega.
-3. Interpret alignment results to draw conclusions about sequence similarity and function.
+2. Interpret alignment results to draw conclusions about sequence similarity and function.
 
 **Tasks to Perform:**
 
+In this task, you will perform pairwise sequence alignments on two protein sequences using both global (Needleman-Wunsch) and local (Smith-Waterman) alignment algorithms. Analyze the results of each alignment to understand the differences between these approaches and when each is appropriate.
+
+Use the following two sequences when performing pairwise sequence alignment:
+
+ ```
+ >Seq1
+ MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVALGEYGFFALPSDPERFKHLKSVVASLSTFKVNSDSKYR
+ ```
+
+ ```
+ >Seq2
+ MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDDLKGTFAALSELHCDKLHVDPEN
+ FRLLGNVLVCVLA
+ ```
+ 
 1. **Pairwise Sequence Alignment:**
    
    - **Step 1:** Access the EMBOSS Needle tool (https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/).
    - **Step 2:** Use the following two protein sequences for alignment:
      
-     - Sequence 1: 
-       ```
-       >Seq1
-       MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVALGEYGFFALPSDPERFKHLKSVVASLSTFKVNSDSKYR
-       ```
 
-     - Sequence 2: 
-       ```
-       >Seq2
-       MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDDLKGTFAALSELHCDKLHVDPEN
-       FRLLGNVLVCVLA
-       ```
    
    - **Step 3:** Perform the alignment using default settings.
    - **Step 4:** Report the following details:
