@@ -13,6 +13,8 @@ Sequence alignment is a fundamental technique in bioinformatics used to identify
 
 **Tasks to Perform:**
 
+1. **Pairwise Sequence Alignment:**
+
 In this task, you will perform pairwise sequence alignments on two protein sequences using both global (Needleman-Wunsch) and local (Smith-Waterman) alignment algorithms. Analyze the results of each alignment to understand the differences between these approaches and when each is appropriate.
 
 Use the following two sequences when performing pairwise sequence alignment:
@@ -27,45 +29,40 @@ Use the following two sequences when performing pairwise sequence alignment:
  MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDDLKGTFAALSELHCDKLHVDPEN
  FRLLGNVLVCVLA
  ```
- 
-1. **Pairwise Sequence Alignment:**
-   
+    
    - **Step 1:** Access the EMBOSS Needle tool (https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle/).
-   - **Step 2:** Use the following two protein sequences for alignment:
-     
-
    
-   - **Step 3:** Perform the alignment using default settings.
-   - **Step 4:** Report the following details:
+   - **Step 2:** Perform global alignment using default settings.
+
+   - **Step 3:** Record the following details:
      - Alignment score
-     - Percentage identity and similarity
+     - Percentage identity, similarity and gaps
      - Key regions of similarity and differences (highlight mismatches and gaps)
 
+   - **Step 4:** Analyze the Results: Based on the alignment score and gaps, discuss the strengths and limitations of using global alignment (Needleman-Wunsch) for these sequences. Consider how the algorithm aligns the entire sequence from end to end and why gaps may be introduced.
 
-2. **Multiple Sequence Alignment:**
+   - **Step 5:** Access the \href{https://www.ebi.ac.uk/jdispatcher/psa/emboss_water}{EMBOSS Water tool}.
+		
+   - **Step 6:** Perform local alignment using default settings.
 
-   - **Step 1:** Access the Clustal Omega tool (https://www.ebi.ac.uk/jdispatcher/msa/clustalo/).
-   - **Step 2:** Use the following three protein sequences for alignment:
-     - Sequence 1: 
-       ```
-       MKTLLILTFLCLLATHTDTSATYQTKDALAKDPRIAQDEYTGKFLYLALMGNEYMFKKSSKYGRAVLAKGLVEIVNLLKEKQNKPKSPLK
-       ```
-     - Sequence 2: 
-       ```
-       MTTLILTFLCLLATHTDTSATYQTKDAAAKDPRIAQDEYTGKFLYLALMGNAYMFKKSSKYGRAVLAKGLVEIVNLLEEKQNKPKSPL
-       ```
-     - Sequence 3: 
-       ```
-       MKTLILTFLCLLATHTDTSATYQTKDALAKDPRIAQDEYTGKFLYLALMGNEYMFQKSSKYGRAVLAKGLVEIVNLLEEKQNKPKSPLK
-       ```
-   - **Step 3:** Perform the alignment using default settings.
-   - **Step 4:** Report the following details:
-     - Alignment overview
-     - Percentage identity matrix
-     - Identify conserved regions, variable regions, and any gaps.
+   - **Step 7:** Record the following results:
+    - Alignment score
+			 - Percentage identity, similarity and gaps
+			 - Number and distribution of gaps
 
+   - **Step 8:** 	Analyze the Results: Discuss the differences in alignment score and gap placement compared to the global alignment. Note how the local alignment focuses on regions of high similarity and minimizes gaps in unrelated regions.
+	
+		- **Step 9:** Comparison and Discussion: Compare the results from both the global and local alignments. Note that at this stage, it’s sufficient to hypothesize about general functional relationships based on the observed similarities (e.g., parts of a protein complex or functional partners), without needing to identify the exact protein type. Address the following questions in your discussion
+   - Why does the global alignment have more gaps compared to the local alignment?
+   - Which alignment approach (global or local) provided a higher score for conserved regions, and why?
+   - In what types of bioinformatics analyses would global alignment be preferred over local alignment, and vice versa?
+   - Based on the alignment results, do you think these sequences might have similar or complementary functions? Discuss any patterns you observe in conserved regions versus gaps and mismatches. What might these patterns suggest about their relationship (e.g., could they be parts of the same protein complex, like subunits)?
+		
+  - **Step 10:** Identify these two sequences using the \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&BLAST_SPEC=&LINK_LOC=blasttab&LAST_PAGE=blastn}{\texttt{blastp suite}}. As database use the \texttt{Non-redundant protein sequences (nr)}.
+   - Why do you think certain regions of the sequences were highly conserved?
+			- How might the differences observed impact the function of each subunit within hemoglobin?
 
-3. **Discussion:**
+2. **Discussion:**
   - Reflect briefly on the importance of sequence alignment in bioinformatics.
   - Interpretation of the biological significance of the alignment results.
   - Any challenges faced during the assignment and how they were overcome.
