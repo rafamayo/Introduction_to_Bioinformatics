@@ -41,7 +41,7 @@ Use the following two sequences when performing pairwise sequence alignment:
 
    - **Step 4:** Analyze the Results: Based on the alignment score and gaps, discuss the strengths and limitations of using global alignment (Needleman-Wunsch) for these sequences. Consider how the algorithm aligns the entire sequence from end to end and why gaps may be introduced.
 
-   - **Step 5:** Access the \href{https://www.ebi.ac.uk/jdispatcher/psa/emboss_water}{EMBOSS Water tool}.
+   - **Step 5:** Access the EMBOSS Water tool (https://www.ebi.ac.uk/jdispatcher/psa/emboss_water).
 		
    - **Step 6:** Perform local alignment using default settings.
 
@@ -58,7 +58,7 @@ Use the following two sequences when performing pairwise sequence alignment:
       - In what types of bioinformatics analyses would global alignment be preferred over local alignment, and vice versa?
       - Based on the alignment results, do you think these sequences might have similar or complementary functions? Discuss any patterns you observe in conserved regions versus gaps and mismatches. What might these patterns suggest about their relationship (e.g., could they be parts of the same protein complex, like subunits)?
 		
-   - **Step 10:** Identify these two sequences using the \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&BLAST_SPEC=&LINK_LOC=blasttab&LAST_PAGE=blastn}{\texttt{blastp suite}}. As database use the \texttt{Non-redundant protein sequences (nr)}.
+   - **Step 10:** Identify these two sequences using the blastp suite (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&BLAST_SPEC=&LINK_LOC=blasttab&LAST_PAGE=blastn). As database use the \texttt{Non-redundant protein sequences (nr)}.
       - Why do you think certain regions of the sequences were highly conserved?
       - How might the differences observed impact the function of each subunit within hemoglobin?
 
@@ -70,12 +70,12 @@ Use the following two sequences when performing pairwise sequence alignment:
 
 **Expected Outcomes:**
 
-- Students will be able to perform and interpret pairwise and multiple sequence alignments.
+- Students will be able to perform and interpret pairwise sequence alignment.
 - Students will understand the significance of alignment scores, percentage identity, and similarity.
 - Students will be able to identify conserved and variable regions in protein sequences, which are important for understanding functional and evolutionary relationships.
 
 **Tools to Use:**
 
 - **EMBOSS Needle:** For pairwise sequence alignment.
-- **Clustal Omega:** For multiple sequence alignment.
+- **blatsp suite**: for identifying protein sequences
 - **Web Browsers:** To access the online tools.
