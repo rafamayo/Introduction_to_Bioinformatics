@@ -46,21 +46,21 @@ Use the following two sequences when performing pairwise sequence alignment:
    - **Step 6:** Perform local alignment using default settings.
 
    - **Step 7:** Record the following results:
-    - Alignment score
-			 - Percentage identity, similarity and gaps
-			 - Number and distribution of gaps
+     - Alignment score
+     - Percentage identity, similarity and gaps
+     - Number and distribution of gaps
 
-   - **Step 8:** 	Analyze the Results: Discuss the differences in alignment score and gap placement compared to the global alignment. Note how the local alignment focuses on regions of high similarity and minimizes gaps in unrelated regions.
+   - **Step 8:** Analyze the Results: Discuss the differences in alignment score and gap placement compared to the global alignment. Note how the local alignment focuses on regions of high similarity and minimizes gaps in unrelated regions.
 	
-		- **Step 9:** Comparison and Discussion: Compare the results from both the global and local alignments. Note that at this stage, it’s sufficient to hypothesize about general functional relationships based on the observed similarities (e.g., parts of a protein complex or functional partners), without needing to identify the exact protein type. Address the following questions in your discussion
-   - Why does the global alignment have more gaps compared to the local alignment?
-   - Which alignment approach (global or local) provided a higher score for conserved regions, and why?
-   - In what types of bioinformatics analyses would global alignment be preferred over local alignment, and vice versa?
-   - Based on the alignment results, do you think these sequences might have similar or complementary functions? Discuss any patterns you observe in conserved regions versus gaps and mismatches. What might these patterns suggest about their relationship (e.g., could they be parts of the same protein complex, like subunits)?
+   - **Step 9:** Comparison and Discussion: Compare the results from both the global and local alignments. Note that at this stage, it’s sufficient to hypothesize about general functional relationships based on the observed similarities (e.g., parts of a protein complex or functional partners), without needing to identify the exact protein type. Address the following questions in your discussion
+      - Why does the global alignment have more gaps compared to the local alignment?
+      - Which alignment approach (global or local) provided a higher score for conserved regions, and why?
+      - In what types of bioinformatics analyses would global alignment be preferred over local alignment, and vice versa?
+      - Based on the alignment results, do you think these sequences might have similar or complementary functions? Discuss any patterns you observe in conserved regions versus gaps and mismatches. What might these patterns suggest about their relationship (e.g., could they be parts of the same protein complex, like subunits)?
 		
-  - **Step 10:** Identify these two sequences using the \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&BLAST_SPEC=&LINK_LOC=blasttab&LAST_PAGE=blastn}{\texttt{blastp suite}}. As database use the \texttt{Non-redundant protein sequences (nr)}.
-   - Why do you think certain regions of the sequences were highly conserved?
-			- How might the differences observed impact the function of each subunit within hemoglobin?
+   - **Step 10:** Identify these two sequences using the \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&BLAST_SPEC=&LINK_LOC=blasttab&LAST_PAGE=blastn}{\texttt{blastp suite}}. As database use the \texttt{Non-redundant protein sequences (nr)}.
+      - Why do you think certain regions of the sequences were highly conserved?
+      - How might the differences observed impact the function of each subunit within hemoglobin?
 
 2. **Discussion:**
   - Reflect briefly on the importance of sequence alignment in bioinformatics.
