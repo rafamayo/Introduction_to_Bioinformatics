@@ -1,7 +1,7 @@
 import numpy as np
 
 # Compute the scoring matrix using linear gap penalty 
-def compute_f_matrix_linear(x, y, match=1, mismatch=-1, gap=-1): -> list[list[int]]:
+def compute_f_matrix_linear(x, y, match=1, mismatch=-1, gap=-1) -> list[list[int]]:
   # implement to fill F  
   pass
 
