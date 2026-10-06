@@ -2,7 +2,7 @@
 
 ### Finding a gene's orientation from sequence alone
 
-**Motivation**
+### Motivation
 
 You are given a piece of double-stranded DNA. Chemically, its two strands
 are equivalent: nothing in the molecule labels one of them as the "sense"
@@ -14,7 +14,7 @@ produces.
 Time: about 60 minutes for Parts A to C, plus 30 minutes for the optional
 Part D.
 
-# Background in brief
+### Background in brief
 
 - RNA polymerase reads the **template strand** 3'→5' and builds the RNA
   5'→3'. The RNA therefore has the same sequence as the **coding
@@ -45,7 +45,7 @@ nt before the transcription start; introns that almost always begin with
 **GT** and end with **AG**; the polyadenylation signal AATAAA shortly
 before the end of the RNA; a poly(A) tail added to the mature mRNA.
 
-## Six reading frames
+### Six reading frames
 
 The genetic code is read in triplets (codons), and nothing in the
 sequence marks where a triplet begins. Where you start decides how the
@@ -88,7 +88,7 @@ actually translated into protein. In other words: an ORF is a
 forms one ORF only in the spliced mRNA, because introns interrupt it in
 the genomic DNA (Part D).
 
-# Files and tools
+### Files and tools
 
 | File | When |
 |---|---|
@@ -105,7 +105,7 @@ answers must come from your own code.
 on the bottom strand, give it as "from the higher to the lower number",
 e.g. "bottom strand, 500-401" (this is also how NCBI ORFfinder does it).
 
-# Part A: Find the gene without the RNA
+### Part A: Find the gene without the RNA
 
 **A1.** Write `revcomp(seq)` and `translate(seq)`. Check:
 `revcomp("ATGC") == "GCAT"` and `translate("ATGGCCTAA") == "MA*"`.
@@ -135,7 +135,7 @@ T on one strand is a run of A on the other.)
 coding strand of this gene, and which is the template strand? Predict
 where transcription starts and where it ends.
 
-# Part B: Check with the transcript
+### Part B: Check with the transcript
 
 Now ask for `transcript.fasta`.
 
@@ -150,7 +150,7 @@ does it match?
 **B4.** Was A6 right? Which evidence from Part A was the strongest, and
 which would have been misleading on its own?
 
-# Part C: Think it over
+### Part C: Think it over
 
 **C1.** Someone says: "The top strand of this chromosome is the sense
 strand." Why is that statement wrong in general?
@@ -161,7 +161,7 @@ strand." Why is that statement wrong in general?
 **C3.** Why does the ORF-length argument work well for bacteria but much
 less well for human genes?
 
-# Part D (optional): A eukaryotic gene with an intron
+### Part D (optional): A eukaryotic gene with an intron
 
 **D1.** Run your ORF finder on `mystery_eukaryote.fasta`. Is there a long
 ORF? What does that tell you?
@@ -182,7 +182,7 @@ why?
 **D6.** Which strand is the coding strand here? Which signals told you,
 and which would have told you without the mRNA?
 
-# What to hand in
+### What to hand in
 
 Your code, and a short lab log with the answers to A1 to C3 (and D1 to D6
 if you did Part D), including the coordinates you found.
