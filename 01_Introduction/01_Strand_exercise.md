@@ -1,4 +1,8 @@
-# The situation
+## Week 1 Assignment: DNA strands and gene orientation
+
+### Finding a gene's orientation from sequence alone
+
+**Motivation**
 
 You are given a piece of double-stranded DNA. Chemically, its two strands
 are equivalent: nothing in the molecule labels one of them as the "sense"
